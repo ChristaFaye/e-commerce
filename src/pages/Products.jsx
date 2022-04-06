@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 
 function Products(){
     const products = [
-        {name: "Samsung Galaxy Watch 4", price: 419, src: "/src/img/samsung-watch4.jpg"},
+        {name: "Samsung Galaxy Watch 4", price: 419, src: "../src/img/samsung-watch4.jpg"},
         {name: "Apple Watch Series 3", price: 195, src:"/src/img/apple-watch3.jpeg"},
         {name: "Apple Watch SE", price: 399, src:"/src/img/apple-watchSE.jpeg"},
         {name: "Apple Watch Series 7 ", price: 414, src:"/src/img/apple-watch7.jpeg"},
