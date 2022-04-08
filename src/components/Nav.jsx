@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import CartContext from "../CartContext";
-import { MdWatch, MdAccountCircle } from "react-icons/md";
+import { MdWatch, MdAccountCircle, MdLaptop, MdHeadphones, MdOutlinePhotoCamera } from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 
 function Nav() {
@@ -15,19 +16,19 @@ function Nav() {
                     GoodBuy
                 </h1>
                 <Link className="nav-link nav-item active text-wrap fs-4 text-white" to="/">
-                    Wearable Technology
+                   <MdWatch size={20} /> Wearable Technology
                 </Link>
                 <Link className="nav-link nav-item disabled text-wrap fs-4 text-muted" to="/">
-                    Laptops
+                    <MdLaptop size={20} /> Laptops
                 </Link>
                 <Link className="nav-link nav-item disabled text-wrap fs-4 text-muted" to="/">
-                    Mobiles
+                    <FaMobileAlt size={20} /> Mobiles
                 </Link>
                 <Link className="nav-link nav-itemdisabled text-wrap fs-4 text-muted" to="/">
-                    Audio
+                   <MdHeadphones size={20} /> Audio
                 </Link>
                 <Link className="nav-link nav-item disabled text-wrap fs-4 text-muted" to="/">
-                    Cameras
+                    <MdOutlinePhotoCamera size={20} /> Cameras
                 </Link>
 
                 <Link className="navbar-brand pe-0" to="/checkout">
